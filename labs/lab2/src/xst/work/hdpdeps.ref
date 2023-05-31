@@ -1,0 +1,56 @@
+V3 32
+FL C:/1-6/3v/Lab_2_Example3/Lab_2_Example3/LightController.vhf 2023/04/10.22:01:24 P.20131013
+EN work/LightController 1683208912 \
+      FL C:/1-6/3v/Lab_2_Example3/Lab_2_Example3/LightController.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/LightController/BEHAVIORAL 1683208913 \
+      FL C:/1-6/3v/Lab_2_Example3/Lab_2_Example3/LightController.vhf \
+      EN work/LightController 1683208912 CP FD CP out_logic_intf \
+      CP transition_logic_intf
+FL C:/1-6/3v/Lab_2_Example3/Lab_2_Example3/OutputLogic.vhd 2023/04/10.21:46:14 P.20131013
+EN work/out_logic_intf 1683208902 \
+      FL C:/1-6/3v/Lab_2_Example3/Lab_2_Example3/OutputLogic.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/out_logic_intf/out_logic_arch 1683208903 \
+      FL C:/1-6/3v/Lab_2_Example3/Lab_2_Example3/OutputLogic.vhd \
+      EN work/out_logic_intf 1683208902
+FL C:/1-6/3v/Lab_2_Example3/Lab_2_Example3/TopLevel.vhf 2023/05/04.12:12:34 P.20131013
+EN work/CC16RE_HXILINX_TopLevel 1683208906 \
+      FL C:/1-6/3v/Lab_2_Example3/Lab_2_Example3/TopLevel.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/CC16RE_HXILINX_TopLevel/CC16RE_HXILINX_TopLevel_V 1683208907 \
+      FL C:/1-6/3v/Lab_2_Example3/Lab_2_Example3/TopLevel.vhf \
+      EN work/CC16RE_HXILINX_TopLevel 1683208906
+EN work/LightController_MUSER_TopLevel 1683208908 \
+      FL C:/1-6/3v/Lab_2_Example3/Lab_2_Example3/TopLevel.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/LightController_MUSER_TopLevel/BEHAVIORAL 1683208909 \
+      FL C:/1-6/3v/Lab_2_Example3/Lab_2_Example3/TopLevel.vhf \
+      EN work/LightController_MUSER_TopLevel 1683208908 CP FD CP out_logic_intf \
+      CP transition_logic_intf
+EN work/TopLevel 1683208910 \
+      FL C:/1-6/3v/Lab_2_Example3/Lab_2_Example3/TopLevel.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/TopLevel/BEHAVIORAL 1683208911 \
+      FL C:/1-6/3v/Lab_2_Example3/Lab_2_Example3/TopLevel.vhf EN work/TopLevel 1683208910 \
+      CP CC16RE_HXILINX_TopLevel CP LightController_MUSER_TopLevel CP FD CP MUXCY \
+      CP INV
+FL C:/1-6/3v/Lab_2_Example3/Lab_2_Example3/TransitionLogic.vhd 2023/04/10.22:01:16 P.20131013
+EN work/transition_logic_intf 1683208904 \
+      FL C:/1-6/3v/Lab_2_Example3/Lab_2_Example3/TransitionLogic.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/transition_logic_intf/transition_logic_arch 1683208905 \
+      FL C:/1-6/3v/Lab_2_Example3/Lab_2_Example3/TransitionLogic.vhd \
+      EN work/transition_logic_intf 1683208904
+FL C:/Lab_2_Example3/LightController.vhf 2023/04/10.22:01:24 P.20131013
+FL C:/Lab_2_Example3/OutputLogic.vhd 2023/04/10.21:46:14 P.20131013
+FL C:/Lab_2_Example3/TopLevel.vhf 2023/04/28.02:33:34 P.20131013
+FL C:/Lab_2_Example3/TransitionLogic.vhd 2023/04/10.22:01:16 P.20131013
+FL "C:/Users/denbr/Desktop/2 course/MKS/Lab_2_Example3/LightController.vhf" 2023/04/10.22:01:23 P.20131013
+FL "C:/Users/denbr/Desktop/2 course/MKS/Lab_2_Example3/OutputLogic.vhd" 2023/04/10.21:46:12 P.20131013
+FL "C:/Users/denbr/Desktop/2 course/MKS/Lab_2_Example3/TopLevel.vhf" 2023/04/11.16:48:15 P.20131013
+FL "C:/Users/denbr/Desktop/2 course/MKS/Lab_2_Example3/TransitionLogic.vhd" 2023/04/10.22:01:15 P.20131013

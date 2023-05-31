@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\1-6\3v\Lab_2_Example3\Lab_2_Example3\TopLevel.ncd
+OUTFILE=C:\1-6\3v\Lab_2_Example3\Lab_2_Example3\TopLevel.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-5tq144
+WORKINGDIR=C:\1-6\3v\Lab_2_Example3\Lab_2_Example3
+LICENSE=WebPack
+USER_INFO=211628586_0_0_017

@@ -1,0 +1,30 @@
+Command line:
+   out_logic_intf_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56276
+
+Mon Apr 10 22:35:47 2023
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 5150.34 Meg
+
+ Total Signals          : 2
+ Total Nets             : 11
+ Total Signal Drivers   : 8
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 8
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 371
+Total Line Count : 8
+Total Line Count : 8
+
+ Total Simulation Time: 0.25 sec
+
+ Current Memory Usage: 5150.34 Meg
+
+Mon Apr 10 23:35:12 2023
+

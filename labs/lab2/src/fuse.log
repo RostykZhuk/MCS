@@ -1,0 +1,33 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/1-6/3v/Lab_2_Example3/Lab_2_Example3/TopLevel_TopLevel_sch_tb_isim_beh.exe -prj C:/1-6/3v/Lab_2_Example3/Lab_2_Example3/TopLevel_TopLevel_sch_tb_beh.prj work.TopLevel_TopLevel_sch_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/1-6/3v/Lab_2_Example3/Lab_2_Example3/TransitionLogic.vhd" into library work
+Parsing VHDL file "C:/1-6/3v/Lab_2_Example3/Lab_2_Example3/OutputLogic.vhd" into library work
+Parsing VHDL file "C:/1-6/3v/Lab_2_Example3/Lab_2_Example3/LightController.vhf" into library work
+Parsing VHDL file "C:/1-6/3v/Lab_2_Example3/Lab_2_Example3/TopLevel.vhf" into library work
+Parsing VHDL file "C:/1-6/3v/Lab_2_Example3/Lab_2_Example3/testBench.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture cc16re_hxilinx_toplevel_v of entity CC16RE_HXILINX_TopLevel [cc16re_hxilinx_toplevel_default]
+Compiling architecture fd_v of entity FD [\FD('0')\]
+Compiling architecture out_logic_arch of entity out_logic_intf [out_logic_intf_default]
+Compiling architecture transition_logic_arch of entity transition_logic_intf [transition_logic_intf_default]
+Compiling architecture behavioral of entity LightController_MUSER_TopLevel [lightcontroller_muser_toplevel_d...]
+Compiling architecture muxcy_v of entity MUXCY [muxcy_default]
+Compiling architecture inv_v of entity INV [inv_default]
+Compiling architecture behavioral of entity TopLevel [toplevel_default]
+Compiling architecture behavioral of entity toplevel_toplevel_sch_tb
+Time Resolution for simulation is 1ps.
+Waiting for 6 sub-compilation(s) to finish...
+Compiled 23 VHDL Units
+Built simulation executable C:/1-6/3v/Lab_2_Example3/Lab_2_Example3/TopLevel_TopLevel_sch_tb_isim_beh.exe
+Fuse Memory Usage: 47984 KB
+Fuse CPU Usage: 483 ms

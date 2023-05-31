@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="transition_logic_intf">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2023-4-10T18:49:52</timestamp>
+    <pin polarity="Input" x="0" y="-144" name="MODE" />
+    <pin polarity="Input" x="0" y="-80" name="CUR_STATE(2:0)" />
+    <pin polarity="Output" x="512" y="-144" name="NEXT_STATE(2:0)" />
+    <pin polarity="Input" x="0" y="0" name="RES" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="256" y="-200" type="symbol" />
+        <line x2="0" y1="-144" y2="-144" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-144" type="pin MODE" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-80" type="pin CUR_STATE(2:0)" />
+        <rect width="64" x="0" y="-92" height="24" />
+        <line x2="0" y1="-80" y2="-80" x1="64" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="440" y="-144" type="pin NEXT_STATE(2:0)" />
+        <rect width="64" x="448" y="-156" height="24" />
+        <line x2="512" y1="-144" y2="-144" x1="448" />
+        <rect width="384" x="64" y="-192" height="220" />
+        <line x2="64" y1="0" y2="0" x1="0" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="124" y="0" type="pin RES" />
+    </graph>
+</symbol>
